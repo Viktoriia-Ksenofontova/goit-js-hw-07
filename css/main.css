@@ -1,11 +1,15 @@
+#gallery {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
 .galleryItem {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-#gallery {
-  display: flex;
-}
-#gallery img {
-  width: 200;
+
+.galleryItem:not(:last-child) {
+  margin-right: 30px;
 }
