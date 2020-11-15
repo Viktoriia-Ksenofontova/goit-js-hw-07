@@ -13,3 +13,24 @@
 .galleryItem:not(:last-child) {
   margin-right: 30px;
 }
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#boxes {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#boxes > div:not(:last-child) {
+  margin-right: 10px;
+}
