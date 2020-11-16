@@ -17,6 +17,7 @@ const images = [
 ];
 
 const galleryRef = document.querySelector('#gallery');
+
 function getItemOfGallery(arr) {
   const itemOfGallery = arr.map(({ url, alt }) =>
       `<li class='galleryItem'>
